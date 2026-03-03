@@ -1,0 +1,52 @@
+.hero {
+
+  height: 100vh;
+
+  background-image: url("/images/background.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-content {
+
+  background: rgba(0,0,0,0.6);
+
+  padding: 30px;
+
+  color: white;
+
+  border-radius: 10px;
+
+}
+
+
+.product-section {
+
+  background: black;
+
+  color: white;
+
+  padding: 50px;
+
+  text-align: center;
+
+}
+
+
+.product-grid {
+
+  display: flex;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
